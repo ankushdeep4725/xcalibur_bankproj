@@ -1,0 +1,220 @@
+E:\onlinebankingsystem\bankingsystem\bankingsystem\obj\Debug\bankingsystem.csprojResolveAssemblyReference.cache
+E:\onlinebankingsystem\bankingsystem\bankingsystem\obj\Debug\bankingsystem.csproj.CoreCompileInputs.cache
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\ApplicationInsights.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\bankingsystem.dll.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\bankingsystem.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\bankingsystem.pdb
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csc.exe
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csc.exe.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csc.rsp
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csi.exe
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csi.exe.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\csi.rsp
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.AppContext.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Collections.Immutable.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Console.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Diagnostics.Process.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.IO.Compression.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.IO.FileSystem.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.IO.Pipes.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.AccessControl.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Claims.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Security.Principal.Windows.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Threading.Thread.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.ValueTuple.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Xml.XPath.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\vbc.exe
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\vbc.exe.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\vbc.rsp
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\VBCSCompiler.exe
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\roslyn\VBCSCompiler.exe.config
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Antlr3.Runtime.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\EntityFramework.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.Web.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.WindowsServer.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.ApplicationInsights.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.Web.Infrastructure.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Newtonsoft.Json.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\SendGrid.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Net.Http.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Net.Http.Formatting.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Security.Cryptography.Algorithms.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Security.Cryptography.Encoding.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Security.Cryptography.Primitives.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Security.Cryptography.X509Certificates.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Cors.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Helpers.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.Cors.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.WebHost.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Mvc.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Optimization.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Razor.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.Deployment.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.Razor.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\WebGrease.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\EntityFramework.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Newtonsoft.Json.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\SendGrid.pdb
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\SendGrid.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Net.Http.Formatting.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.Cors.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Helpers.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Http.WebHost.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Mvc.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Optimization.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.Razor.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.Deployment.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\System.Web.WebPages.Razor.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Antlr3.Runtime.pdb
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.ApplicationInsights.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.WindowsServer.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\bin\Microsoft.AI.Web.xml
+E:\onlinebankingsystem\bankingsystem\bankingsystem\obj\Debug\bankingsystem.csproj.CopyComplete
+E:\onlinebankingsystem\bankingsystem\bankingsystem\obj\Debug\bankingsystem.dll
+E:\onlinebankingsystem\bankingsystem\bankingsystem\obj\Debug\bankingsystem.pdb
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\ApplicationInsights.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\bankingsystem.dll.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\bankingsystem.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\bankingsystem.pdb
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csc.exe
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csc.exe.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csc.rsp
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csi.exe
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csi.exe.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\csi.rsp
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.AppContext.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Console.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\vbc.exe
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\vbc.exe.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\vbc.rsp
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Antlr3.Runtime.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\EntityFramework.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.Web.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Newtonsoft.Json.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\SendGrid.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Net.Http.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Cors.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Helpers.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.Cors.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Mvc.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Optimization.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Razor.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\WebGrease.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\EntityFramework.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Newtonsoft.Json.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\SendGrid.pdb
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\SendGrid.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.Cors.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Helpers.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Mvc.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Optimization.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.Razor.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Antlr3.Runtime.pdb
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\bin\Microsoft.AI.Web.xml
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\obj\Debug\bankingsystem.csprojAssemblyReference.cache
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\obj\Debug\bankingsystem.csproj.CoreCompileInputs.cache
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\obj\Debug\bankingsystem.csproj.CopyComplete
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\obj\Debug\bankingsystem.dll
+C:\Users\Dell Pro\Desktop\xcalibur\bankingsystem\obj\Debug\bankingsystem.pdb

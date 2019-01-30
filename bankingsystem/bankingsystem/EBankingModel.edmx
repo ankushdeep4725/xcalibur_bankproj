@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="eBankingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="bankservices">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="services" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="beneficiaries">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="nickname" Type="varchar" MaxLength="50" />
+          <Property Name="accountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="ifsccode" Type="varchar" MaxLength="50" />
+          <Property Name="maxamount" Type="varchar" MaxLength="50" />
+          <Property Name="maxtransactions" Type="varchar" MaxLength="50" />
+          <Property Name="address" Type="varchar" MaxLength="50" />
+          <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="checkbooks">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="issuedate" Type="datetime" />
+          <Property Name="numberofpages" Type="varchar" MaxLength="50" />
+          <Property Name="delivereddate" Type="datetime" />
+          <Property Name="isdelivered" Type="bit" />
+        </EntityType>
+        <EntityType Name="transactions">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="nickname" Type="varchar" MaxLength="50" />
+          <Property Name="senderaccountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="receiveraccountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="ifsccode" Type="varchar" MaxLength="50" />
+          <Property Name="transactiondate" Type="datetime" />
+          <Property Name="creditamount" Type="varchar" MaxLength="50" />
+          <Property Name="debitamount" Type="varchar" MaxLength="50" />
+          <Property Name="senderbalanceamount" Type="varchar" MaxLength="50" />
+          <Property Name="receiverbalanceamount" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="firstname" Type="varchar" MaxLength="50" />
+          <Property Name="lastname" Type="varchar" MaxLength="50" />
+          <Property Name="username" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="varchar" MaxLength="50" />
+          <Property Name="transactionpassword" Type="varchar" MaxLength="50" />
+          <Property Name="holdername" Type="varchar" MaxLength="50" />
+          <Property Name="accountnumber" Type="varchar" MaxLength="50" />
+          <Property Name="createdon" Type="datetime" />
+          <Property Name="image" Type="varchar" MaxLength="1000" />
+          <Property Name="contactnumber" Type="varchar" MaxLength="50" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="lastlogin" Type="datetime" />
+          <Property Name="location" Type="varchar" MaxLength="500" />
+          <Property Name="gender" Type="varchar" MaxLength="50" />
+          <Property Name="dateofbirth" Type="varchar" MaxLength="50" />
+          <Property Name="accountbalance" Type="varchar" MaxLength="50" />
+          <Property Name="randomtext" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="eBankingModelStoreContainer">
+          <EntitySet Name="bankservices" EntityType="Self.bankservices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="beneficiaries" EntityType="Self.beneficiaries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="checkbooks" EntityType="Self.checkbooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="transactions" EntityType="Self.transactions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="eBankingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="eBankingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="beneficiaries" EntityType="eBankingModel.beneficiary" />
+          <EntitySet Name="checkbooks" EntityType="eBankingModel.checkbook" />
+          <EntitySet Name="bankservices" EntityType="eBankingModel.bankservice" />
+          <EntitySet Name="transactions" EntityType="eBankingModel.transaction" />
+          <EntitySet Name="users" EntityType="eBankingModel.user" />
+        </EntityContainer>
+        <EntityType Name="beneficiary">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nickname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="accountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ifsccode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="maxamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="maxtransactions" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="checkbook">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="issuedate" Type="DateTime" Precision="3" />
+          <Property Name="delivereddate" Type="DateTime" Precision="3" />
+          <Property Name="isdelivered" Type="Boolean" />
+          <Property Name="numberofpages" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="bankservice">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="services" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="transaction">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nickname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="senderaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="receiveraccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ifsccode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="transactiondate" Type="DateTime" Precision="3" />
+          <Property Name="creditamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="debitamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="senderbalanceamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="receiverbalanceamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="transactionpassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="holdername" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="accountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="createdon" Type="DateTime" Precision="3" />
+          <Property Name="image" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="contactnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="lastlogin" Type="DateTime" Precision="3" />
+          <Property Name="location" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dateofbirth" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="accountbalance" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="randomtext" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="eBankingModelStoreContainer" CdmEntityContainer="eBankingEntities">
+          <EntitySetMapping Name="beneficiaries">
+            <EntityTypeMapping TypeName="eBankingModel.beneficiary">
+              <MappingFragment StoreEntitySet="beneficiaries">
+                <ScalarProperty Name="usersaccountnumber" ColumnName="usersaccountnumber" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="maxtransactions" ColumnName="maxtransactions" />
+                <ScalarProperty Name="maxamount" ColumnName="maxamount" />
+                <ScalarProperty Name="ifsccode" ColumnName="ifsccode" />
+                <ScalarProperty Name="accountnumber" ColumnName="accountnumber" />
+                <ScalarProperty Name="nickname" ColumnName="nickname" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="checkbooks">
+            <EntityTypeMapping TypeName="eBankingModel.checkbook">
+              <MappingFragment StoreEntitySet="checkbooks">
+                <ScalarProperty Name="numberofpages" ColumnName="numberofpages" />
+                <ScalarProperty Name="isdelivered" ColumnName="isdelivered" />
+                <ScalarProperty Name="delivereddate" ColumnName="delivereddate" />
+                <ScalarProperty Name="issuedate" ColumnName="issuedate" />
+                <ScalarProperty Name="usersaccountnumber" ColumnName="usersaccountnumber" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bankservices">
+            <EntityTypeMapping TypeName="eBankingModel.bankservice">
+              <MappingFragment StoreEntitySet="bankservices">
+                <ScalarProperty Name="services" ColumnName="services" />
+                <ScalarProperty Name="usersaccountnumber" ColumnName="usersaccountnumber" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="transactions">
+            <EntityTypeMapping TypeName="eBankingModel.transaction">
+              <MappingFragment StoreEntitySet="transactions">
+                <ScalarProperty Name="receiverbalanceamount" ColumnName="receiverbalanceamount" />
+                <ScalarProperty Name="senderbalanceamount" ColumnName="senderbalanceamount" />
+                <ScalarProperty Name="debitamount" ColumnName="debitamount" />
+                <ScalarProperty Name="creditamount" ColumnName="creditamount" />
+                <ScalarProperty Name="transactiondate" ColumnName="transactiondate" />
+                <ScalarProperty Name="ifsccode" ColumnName="ifsccode" />
+                <ScalarProperty Name="receiveraccountnumber" ColumnName="receiveraccountnumber" />
+                <ScalarProperty Name="senderaccountnumber" ColumnName="senderaccountnumber" />
+                <ScalarProperty Name="nickname" ColumnName="nickname" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="eBankingModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="randomtext" ColumnName="randomtext" />
+                <ScalarProperty Name="accountbalance" ColumnName="accountbalance" />
+                <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="location" ColumnName="location" />
+                <ScalarProperty Name="lastlogin" ColumnName="lastlogin" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="createdon" ColumnName="createdon" />
+                <ScalarProperty Name="accountnumber" ColumnName="accountnumber" />
+                <ScalarProperty Name="holdername" ColumnName="holdername" />
+                <ScalarProperty Name="transactionpassword" ColumnName="transactionpassword" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="firstname" ColumnName="firstname" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

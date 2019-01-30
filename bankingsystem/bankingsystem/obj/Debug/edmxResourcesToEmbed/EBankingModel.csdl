@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eBankingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="eBankingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="beneficiaries" EntityType="eBankingModel.beneficiary" />
+    <EntitySet Name="checkbooks" EntityType="eBankingModel.checkbook" />
+    <EntitySet Name="bankservices" EntityType="eBankingModel.bankservice" />
+    <EntitySet Name="transactions" EntityType="eBankingModel.transaction" />
+    <EntitySet Name="users" EntityType="eBankingModel.user" />
+  </EntityContainer>
+  <EntityType Name="beneficiary">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nickname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="accountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ifsccode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="maxamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="maxtransactions" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="checkbook">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="issuedate" Type="DateTime" Precision="3" />
+    <Property Name="delivereddate" Type="DateTime" Precision="3" />
+    <Property Name="isdelivered" Type="Boolean" />
+    <Property Name="numberofpages" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="bankservice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="usersaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="services" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="transaction">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nickname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="senderaccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="receiveraccountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ifsccode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="transactiondate" Type="DateTime" Precision="3" />
+    <Property Name="creditamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="debitamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="senderbalanceamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="receiverbalanceamount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="transactionpassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="holdername" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="accountnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="image" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="contactnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lastlogin" Type="DateTime" Precision="3" />
+    <Property Name="location" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dateofbirth" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="accountbalance" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="randomtext" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eBankingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bankservices">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="services" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="beneficiaries">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="nickname" Type="varchar" MaxLength="50" />
+    <Property Name="accountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="ifsccode" Type="varchar" MaxLength="50" />
+    <Property Name="maxamount" Type="varchar" MaxLength="50" />
+    <Property Name="maxtransactions" Type="varchar" MaxLength="50" />
+    <Property Name="address" Type="varchar" MaxLength="50" />
+    <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="checkbooks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usersaccountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="issuedate" Type="datetime" />
+    <Property Name="numberofpages" Type="varchar" MaxLength="50" />
+    <Property Name="delivereddate" Type="datetime" />
+    <Property Name="isdelivered" Type="bit" />
+  </EntityType>
+  <EntityType Name="transactions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="nickname" Type="varchar" MaxLength="50" />
+    <Property Name="senderaccountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="receiveraccountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="ifsccode" Type="varchar" MaxLength="50" />
+    <Property Name="transactiondate" Type="datetime" />
+    <Property Name="creditamount" Type="varchar" MaxLength="50" />
+    <Property Name="debitamount" Type="varchar" MaxLength="50" />
+    <Property Name="senderbalanceamount" Type="varchar" MaxLength="50" />
+    <Property Name="receiverbalanceamount" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstname" Type="varchar" MaxLength="50" />
+    <Property Name="lastname" Type="varchar" MaxLength="50" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+    <Property Name="transactionpassword" Type="varchar" MaxLength="50" />
+    <Property Name="holdername" Type="varchar" MaxLength="50" />
+    <Property Name="accountnumber" Type="varchar" MaxLength="50" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="image" Type="varchar" MaxLength="1000" />
+    <Property Name="contactnumber" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="lastlogin" Type="datetime" />
+    <Property Name="location" Type="varchar" MaxLength="500" />
+    <Property Name="gender" Type="varchar" MaxLength="50" />
+    <Property Name="dateofbirth" Type="varchar" MaxLength="50" />
+    <Property Name="accountbalance" Type="varchar" MaxLength="50" />
+    <Property Name="randomtext" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="eBankingModelStoreContainer">
+    <EntitySet Name="bankservices" EntityType="Self.bankservices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="beneficiaries" EntityType="Self.beneficiaries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="checkbooks" EntityType="Self.checkbooks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="transactions" EntityType="Self.transactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
